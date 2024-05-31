@@ -2,7 +2,7 @@
 $host = 'localhost';
 $db_name = 'curriculumDB';
 $username = 'root';
-$password = 'shirochan11';
+$password = 'your-password';
 
 try {
     $db = new PDO("mysql:host=$host;dbname=$db_name", $username, $password);
